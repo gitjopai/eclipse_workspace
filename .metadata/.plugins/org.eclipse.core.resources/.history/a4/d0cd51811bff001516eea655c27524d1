@@ -1,0 +1,17 @@
+public class Stringmixer {
+	public static void main (String  []args){
+		String wort1 = "derder";
+		String wort2 = "DERDER";
+		int zaehler =0;
+		int c;
+		int d;
+		if (wort1.charAt(zaehler) != '\0'){
+			c = wort1.charAt(zaehler);
+			d = wort2.charAt(zaehler);
+			System.out.println(c);
+			System.out.println(d);
+			zaehler = zaehler +1;
+			
+		}
+	}
+}

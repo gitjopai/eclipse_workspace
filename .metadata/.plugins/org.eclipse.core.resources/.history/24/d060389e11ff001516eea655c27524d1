@@ -1,0 +1,7 @@
+public class einfachdoppelt{
+	public static void main (String[] args){
+		Typ[] eingabe= new Typ[];
+		String s = "Hallo";
+		System.out.println(s);
+	}
+}

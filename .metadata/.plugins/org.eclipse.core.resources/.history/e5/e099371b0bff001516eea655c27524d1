@@ -1,0 +1,12 @@
+public class Schachbrett{
+	public static void main (String[] args){
+		int zahl;
+		char zeichen = 'A';
+		while (zeichen <= 'H'){
+			while (zahl <= '8'){
+				System.out.println(zahl+"\t\t"+zahl+zeichen);
+				zeichen = (char)(zeichen+1);
+			}
+		}
+	}
+}

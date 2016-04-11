@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Schachbrett.java&apos; to &apos;Schachbrett/src&apos;&#x0A;- Original project: &apos;Schachbrett&apos;&#x0A;- Destination element: &apos;Schachbrett/src&apos;&#x0A;- Original element: &apos;Schachbrett.java&apos;&#x0A;- Update references to refactored element" description="Move file" destination="/src" element1="Schachbrett.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1460282417988" units="0" version="1.0"/>
+</session>

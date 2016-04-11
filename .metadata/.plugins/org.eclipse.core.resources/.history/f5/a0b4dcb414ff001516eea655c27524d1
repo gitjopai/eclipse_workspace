@@ -1,0 +1,6 @@
+public class einfachdoppelt{
+	public static void main (String[] args){
+		String wort = "abc";
+		
+	}
+}

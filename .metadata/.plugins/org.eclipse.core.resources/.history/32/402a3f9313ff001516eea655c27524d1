@@ -1,0 +1,8 @@
+public class einfachdoppelt{
+	public static void main (String[] args){
+		char[] eingabe= new char[5];
+		char[] eingabe = {H,A,L,L,O};
+		String s = "Hallo";
+		System.out.println(s);
+	}
+}

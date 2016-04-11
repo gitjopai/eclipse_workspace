@@ -1,0 +1,11 @@
+public class Schachbrett{
+	public static void main (String[] args){
+		int zahl;
+		char zeichen = 'A'+1;
+		for (zahl = 8; zahl >= 1; zahl--){
+			
+		
+		System.out.println(zahl);
+		}
+	}
+}

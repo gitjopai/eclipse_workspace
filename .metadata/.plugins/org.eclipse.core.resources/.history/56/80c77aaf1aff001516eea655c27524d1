@@ -1,0 +1,10 @@
+public class Stringmixer {
+	public static void main (String  []args){
+		String wort1 = "derder";
+		String wort2 = "DERDER";
+		int zaehler =0;
+		if (wort1.charAt(zaehler) != '\0'){
+			
+		}
+	}
+}

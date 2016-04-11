@@ -1,0 +1,25 @@
+public class Stringmixer {
+	public static void main (String  []args){
+		String wort1 = "dr";
+		String wort2 = "DERDER";
+		int zaehler = 0;
+		char c;
+		char d;
+		if (wort1.charAt(zaehler) != '\0'){
+			while (wort1.charAt(zaehler) != '\0'){
+			c = wort1.charAt(zaehler);
+			d = wort2.charAt(zaehler);
+			System.out.println(c);
+			System.out.println(d);
+			zaehler = zaehler +1;
+			}
+		}
+		if (wort2.charAt(zaehler) != '\0') {
+			while (wort2.charAt(zaehler) != '\0'){
+				d = wort2.charAt(zaehler);
+				System.out.println(d);
+				zaehler = zaehler +1;
+			}
+		}
+	}
+}
