@@ -1,0 +1,16 @@
+public class Textanalyse {
+	public static void main (String []args){
+		String zaSatz = "4lkjggr!!nge? frg.,kog gomjh";
+		int zaehler;
+		int satzzeichen = 0;
+		int konsonanten = 0;
+		int vokale = 0;
+		int leerzeichen = 0;
+		for (zaehler = 0; zaehler < zaSatz.length(); zaehler++){
+			char c = zaSatz.charAt(zaehler);
+			if (Character.isLetter('9')){
+				System.out.println(zaehler);
+			}
+		}
+	}
+}

@@ -1,6 +1,6 @@
 public class Textanalyse {
 	public static void main (String []args){
-		String zaSatz = "4li  iarrek9";
+		String zaSatz = "4li  iak9";
 		int zaehler;
 		int satzzeichen = 0;
 		int konsonanten = 0;
@@ -14,7 +14,7 @@ public class Textanalyse {
 				zahlen = zahlen +1;
 			}
 			if (Character.isLetter(a)){
-				if ((zaSatz.charAt(zaehler) == 'a') || (zaSatz.charAt(zaehler) == 'e') || (zaSatz.charAt(zaehler) == 'i') || (zaSatz.charAt(zaehler) == 'o') || (zaSatz.charAt(zaehler) == 'u')){
+				if (zaSatz.charAt(zaehler) == 'a'){
 					vokale = vokale +1;
 				}
 				else {

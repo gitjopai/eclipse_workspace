@@ -1,6 +1,6 @@
 public class Textanalyse {
 	public static void main (String []args){
-		String zaSatz = "4li  iarrek9";
+		String zaSatz = "4li  iaek9";
 		int zaehler;
 		int satzzeichen = 0;
 		int konsonanten = 0;
