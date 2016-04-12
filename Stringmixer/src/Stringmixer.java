@@ -1,25 +1,17 @@
 public class Stringmixer {
 	public static void main (String  []args){
 		String wort1 = "drerttgr";
-		String wort2 = "DE";
+		String wort2 = "!  4skgm";
 		int zaehler;
-		char c;
-		char d;
-		for (zaehler = 0; zaehler <= 32; zaehler++){
-			if ((wort1.charAt(zaehler) != '\0') && ((wort2.charAt(zaehler) != '\0'))){
-				c = wort1.charAt(zaehler);
-				d = wort2.charAt(zaehler);
-				System.out.println(c);
-				System.out.println(d);
+		String result = "";
+		for (zaehler = 0; zaehler < wort1.length() || zaehler < wort2.length(); zaehler++){
+			if ( wort1.length() > zaehler){
+				result = result + wort1.charAt(zaehler);
 			}
-			if ((wort1.charAt(zaehler) != '\0') && ((wort2.charAt(zaehler) == '\0'))){
-				c = wort1.charAt(zaehler);
-				System.out.println(c);
-			}
-			if ((wort1.charAt(zaehler) == '\0') && ((wort2.charAt(zaehler) != '\0'))){
-				d = wort2.charAt(zaehler);
-				System.out.println(d);
+			if ( wort2.length() > zaehler){
+				result = result + wort2.charAt(zaehler);
 			}
 		}
+		System.out.println(result);
 	}
 }

@@ -1,21 +1,21 @@
 public class einfachdoppelt{
 	public static void main (String[] args){
-		/*String wort = "Hallo";
+		String wort = "Hallo";
 		char c;
 		int zaehler=0;
-		while ((wort.charAt(zaehler)!= '\0')){
+		while (zaehler < wort.length()){
 			c = wort.charAt(zaehler);
 			System.out.println(c);
 			System.out.println(c);
-			zaehler = zaehler +1;*/
+			zaehler = zaehler +1;
 		
-		String wort = "HHaalllloo";
+		/*String wort = "HHaalllloo";
 		char c;
 		int zaehler = 0;
-		while ((wort.charAt(zaehler)!= '\0')){
+		while (zaehler < wort.length()){
 			c = wort.charAt(zaehler);
 			System.out.println(c);
-			zaehler = zaehler +2;
+			zaehler = zaehler +2;*/
 		
 		}
 	}

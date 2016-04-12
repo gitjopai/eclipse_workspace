@@ -1,0 +1,16 @@
+public class Textanalyse {
+	public static void main (String []args){
+		String zuanalysierenderSatz = "4Das ! ist doch schön oder 4";
+		int zaehler;
+		int satzzeichen = 0;
+		int konsonanten = 0;
+		int vokale = 0;
+		int leerzeichen = 0;
+		for (zaehler = 0; zaehler < zuanalysierenderSatz.length(); zaehler++){
+			if ((zuanalysierenderSatz.charAt(zaehler)) == (33)){
+				satzzeichen = satzzeichen +1;
+			}
+		}
+		System.out.println(+satzzeichen);
+	}
+}

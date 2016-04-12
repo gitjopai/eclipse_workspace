@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="742" width="1166" x="206" y="27">
+<window height="741" width="1160" x="196" y="24">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -32,18 +32,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stringmixer.java" partName="Stringmixer.java" path="/home/johannes/workspace/Stringmixer/src/Stringmixer.java" title="Stringmixer.java" tooltip="Stringmixer/src/Stringmixer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Stringmixer/src/Stringmixer.java"/>
-<editorState selectionHorizontalPixel="37" selectionLength="0" selectionOffset="635" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="einfachdoppelt.java" partName="einfachdoppelt.java" path="/home/johannes/workspace/eInfachdoppelt/src/einfachdoppelt.java" title="einfachdoppelt.java" tooltip="eInfachdoppelt/src/einfachdoppelt.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/eInfachdoppelt/src/einfachdoppelt.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Textanalyse.java" partName="Textanalyse.java" path="/home/johannes/workspace/Textanalyse/src/Textanalyse.java" title="Textanalyse.java" tooltip="Textanalyse/src/Textanalyse.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Textanalyse/src/Textanalyse.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="739" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -79,6 +74,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="236" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -109,7 +107,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -248,7 +246,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.16536118" ratioLeft="190" ratioRight="959" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.75" ratioLeft="480" ratioRight="160" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -283,163 +281,57 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/eInfachdoppelt/src/einfachdoppelt.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Bresenham/src/BresenhamBasic.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Stringmixer/Stringmixer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Textanalyse/Textanalyse.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Stringmixer/src/Stringmixer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Schachbrett/src/Schachbrett.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Schachbrett/src/Schachbrett.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/eInfachdoppelt/src/einfachdoppelt.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Textanalyse/src/Textanalyse.java"/>
 </editors>
-<item historyLabel="einfachdoppelt.java" index="0">
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="381" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="61" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="Stringmixer.java" index="1">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="228" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="296" y="0"/>
+</item>
+<item historyLabel="Stringmixer.java" index="1">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="296" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="2">
 <position/>
 </item>
-<item historyLabel="einfachdoppelt.java" index="0">
+<item historyLabel="Stringmixer.java" index="1">
+<position info="not_deleted" x="125" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="2">
+<position info="not_deleted" x="376" y="0"/>
+</item>
+<item historyLabel="Textanalyse.java" index="2">
 <position/>
 </item>
-<item historyLabel="BresenhamBasic.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position/>
-</item>
-<item historyLabel="BresenhamBasic.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position/>
-</item>
-<item historyLabel="BresenhamBasic.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position/>
-</item>
-<item historyLabel="Stringmixer.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="610" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="67" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="605" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="136" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="380" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="324" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="268" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="268" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="324" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="377" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="240" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="601" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="596" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="268" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="380" y="0"/>
-</item>
-<item historyLabel="einfachdoppelt.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Schachbrett.java" index="4">
-<position info="not_deleted" x="89" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="69" y="0"/>
-</item>
-<item historyLabel="Schachbrett.java" index="5">
-<position info="not_deleted" x="196" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="3">
-<position info="not_deleted" x="635" y="0"/>
-</item>
-<item active="true" historyLabel="einfachdoppelt.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="Textanalyse.java" index="2">
+<position info="not_deleted" x="297" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -458,14 +350,17 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Textanalyse.java" tooltip="Textanalyse/Textanalyse.java">
+<persistable path="/Textanalyse/Textanalyse.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stringmixer.java" tooltip="Stringmixer/src/Stringmixer.java">
+<persistable path="/Stringmixer/src/Stringmixer.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="einfachdoppelt.java" tooltip="eInfachdoppelt/src/einfachdoppelt.java">
 <persistable path="/eInfachdoppelt/src/einfachdoppelt.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Schachbrett.java" tooltip="Schachbrett/src/Schachbrett.java">
 <persistable path="/Schachbrett/src/Schachbrett.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stringmixer.java" tooltip="Stringmixer/src/Stringmixer.java">
-<persistable path="/Stringmixer/src/Stringmixer.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stringmixer.java" tooltip="Stringmixer/Stringmixer.java">
 <persistable path="/Stringmixer/Stringmixer.java"/>
@@ -499,9 +394,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="manhatten.java" tooltip="world/src/manhatten.java">
 <persistable path="/world/src/manhatten.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="manhatten.java" tooltip="Manhatten/manhatten.java">
-<persistable path="/Manhatten/manhatten.java"/>
 </file>
 </mruList>
 </workbench>
