@@ -1,6 +1,0 @@
-public class Schachbrett{
-	public static void main (String[] args){
-		char zeichen = 'a'+1;
-		System.out.println(zeichen);
-	}
-}

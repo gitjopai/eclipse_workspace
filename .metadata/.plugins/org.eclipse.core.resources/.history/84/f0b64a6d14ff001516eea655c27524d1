@@ -1,6 +1,0 @@
-public class einfachdoppelt{
-	public static void main (String[] args){
-		String ArrayList<String> eineliste = new ArrayList <String>();
-		liste.add(Hallo);
-	}
-}

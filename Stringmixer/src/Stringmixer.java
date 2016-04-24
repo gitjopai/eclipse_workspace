@@ -1,7 +1,7 @@
 public class Stringmixer {
 	public static void main (String  []args){
 		String wort1 = "drerttgr";
-		String wort2 = "!  4skgm";
+		String wort2 = "!m";
 		int zaehler;
 		String result = "";
 		for (zaehler = 0; zaehler < wort1.length() || zaehler < wort2.length(); zaehler++){
@@ -12,6 +12,6 @@ public class Stringmixer {
 				result = result + wort2.charAt(zaehler);
 			}
 		}
-		System.out.println(result);
+		System.out.print(result);
 	}
 }

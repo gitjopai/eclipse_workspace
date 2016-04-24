@@ -5,8 +5,8 @@ public class einfachdoppelt{
 		int zaehler=0;
 		while (zaehler < wort.length()){
 			c = wort.charAt(zaehler);
-			System.out.println(c);
-			System.out.println(c);
+			System.out.print(c);
+			System.out.print(c);
 			zaehler = zaehler +1;
 		
 		/*String wort = "HHaalllloo";
@@ -14,7 +14,7 @@ public class einfachdoppelt{
 		int zaehler = 0;
 		while (zaehler < wort.length()){
 			c = wort.charAt(zaehler);
-			System.out.println(c);
+			System.out.print(c);
 			zaehler = zaehler +2;*/
 		
 		}

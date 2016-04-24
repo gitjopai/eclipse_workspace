@@ -1,6 +1,6 @@
 public class Textanalyse {
 	public static void main (String []args){
-		String zaSatz = "4li  iarrek9";
+		String zaSatz = "4li  ..?,iar!rek9";
 		int zaehler;
 		int satzzeichen = 0;
 		int konsonanten = 0;
@@ -24,6 +24,10 @@ public class Textanalyse {
 			if (Character.isWhitespace(a)){
 				leerzeichen = leerzeichen +1;
 			}
+			if ((zaSatz.charAt(zaehler) == '!') || (zaSatz.charAt(zaehler) == '.') || (zaSatz.charAt(zaehler) == ',')){
+				satzzeichen = satzzeichen+1;
+			}
+			
 		}
 		System.out.println("Anzahl der Zahlen:\t\t" + zahlen);
 		System.out.println("Anzahl der Konsonanten:\t\t" + konsonanten);

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
 <window height="741" width="1160" x="196" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -21,7 +21,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.cdt.ui.editor.CEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -30,16 +30,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Textanalyse.java" partName="Textanalyse.java" path="/home/johannes/workspace/Textanalyse/src/Textanalyse.java" title="Textanalyse.java" tooltip="Textanalyse/src/Textanalyse.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Textanalyse/src/Textanalyse.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="97" selectionTopPixel="5"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
@@ -74,11 +68,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (3 items)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="236" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -109,7 +98,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -249,7 +238,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.16536118" ratioLeft="190" ratioRight="959" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.75" ratioLeft="480" ratioRight="160" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.9416404" ratioLeft="597" ratioRight="37" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -281,100 +270,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Textanalyse/Textanalyse.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Stringmixer/src/Stringmixer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Textanalyse/src/Textanalyse.java"/>
-</editors>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="381" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="61" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="1">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="228" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="296" y="0"/>
-</item>
-<item historyLabel="Stringmixer.java" index="1">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="296" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position/>
-</item>
-<item historyLabel="Stringmixer.java" index="1">
-<position info="not_deleted" x="125" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="297" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="314" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="757" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="1074" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="635" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="635" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="761" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="758" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="635" y="0"/>
-</item>
-<item historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="592" y="0"/>
-</item>
-<item active="true" historyLabel="Textanalyse.java" index="2">
-<position info="not_deleted" x="582" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -391,8 +287,11 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Textanalyse.java" tooltip="Textanalyse/Textanalyse.java">
-<persistable path="/Textanalyse/Textanalyse.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BresenhamBasic.java" tooltip="Bresenham/src/BresenhamBasic.java">
+<persistable path="/Bresenham/src/BresenhamBasic.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AsciiPlotter.java" tooltip="Bresenham/src/AsciiPlotter.java">
+<persistable path="/Bresenham/src/AsciiPlotter.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stringmixer.java" tooltip="Stringmixer/src/Stringmixer.java">
 <persistable path="/Stringmixer/src/Stringmixer.java"/>
@@ -403,11 +302,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Schachbrett.java" tooltip="Schachbrett/src/Schachbrett.java">
 <persistable path="/Schachbrett/src/Schachbrett.java"/>
 </file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Textanalyse.java" tooltip="Textanalyse/Textanalyse.java">
+<persistable path="/Textanalyse/Textanalyse.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Stringmixer.java" tooltip="Stringmixer/Stringmixer.java">
 <persistable path="/Stringmixer/Stringmixer.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BresenhamBasic.java" tooltip="Bresenham/src/BresenhamBasic.java">
-<persistable path="/Bresenham/src/BresenhamBasic.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="einfachdoppelt.java" tooltip="eInfachdoppelt/einfachdoppelt.java">
 <persistable path="/eInfachdoppelt/einfachdoppelt.java"/>
@@ -420,9 +319,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="schachbrett.java" tooltip="Schachbrett/schachbrett.java">
 <persistable path="/Schachbrett/schachbrett.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AsciiPlotter.java" tooltip="Bresenham/src/AsciiPlotter.java">
-<persistable path="/Bresenham/src/AsciiPlotter.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="m.java" tooltip="m/m.java">
 <persistable path="/m/m.java"/>
