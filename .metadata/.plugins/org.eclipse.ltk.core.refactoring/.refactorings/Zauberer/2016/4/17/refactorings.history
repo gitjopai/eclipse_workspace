@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;wand.java&apos; to &apos;Wand.java&apos;&#x0A;- Original project: &apos;Zauberer&apos;&#x0A;- Original element: &apos;wand.java&apos;&#x0A;- Renamed element: &apos;Wand.java&apos;" description="Rename compilation unit &apos;wand.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{wand.java" name="Wand.java" references="false" stamp="1461593577346" version="1.0"/>
+</session>

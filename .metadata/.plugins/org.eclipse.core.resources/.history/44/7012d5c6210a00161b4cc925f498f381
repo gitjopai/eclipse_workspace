@@ -1,0 +1,4 @@
+public class wand{
+			int power;
+			boolean useable;
+		}

@@ -1,0 +1,7 @@
+public class wand{
+	int power;
+	boolean useable;
+	
+	public wand( int p, boolean u){
+	}
+}

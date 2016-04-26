@@ -1,0 +1,10 @@
+public class Wand{
+	int power;
+	boolean useable;
+	public Wand (int power){
+		this.power = power;
+	}
+	public Wand (boolean useable){
+		this.useable = useable;
+	}
+}

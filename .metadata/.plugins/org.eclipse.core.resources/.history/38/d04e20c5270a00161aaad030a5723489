@@ -1,0 +1,16 @@
+public class zauberer{
+		int power;
+		boolean useable;
+		public zauberer (int power, boolean useable){
+			this.power = power;
+			this.useable = useable;
+		}
+	public class Wand{
+		zauberer Erster = new zauberer(0, true);
+		zauberer Zweiter = new zauberer(0, true);
+		zauberer Dritter = new zauberer(0, true);
+		zauberer Vierter = new zauberer(0, true);
+	}
+	public static void main (String[] args){
+	}
+}

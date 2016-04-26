@@ -1,0 +1,15 @@
+public class zauberer{
+		int power;
+		boolean useable;
+		public Wand (int power){
+			this.power = power;
+		}
+		public Wand (boolean useable){
+			this.useable = useable;
+		}
+	}
+	public static void main (String[] args){
+		Wand Erster = new Wand();
+		Wand Zweiter = new Wand();
+	}
+}

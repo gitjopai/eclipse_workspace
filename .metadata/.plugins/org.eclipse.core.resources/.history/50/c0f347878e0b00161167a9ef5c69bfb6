@@ -1,0 +1,18 @@
+public class zauberer{
+		public static void main (String[] args){
+			Wand zs1 = new Wand(0);
+			Wand zs2 = new Wand(0); 
+			Wand zs3 = new Wand(0);
+			Wand zs4 = new Wand(0);
+			zs1.power = 3;
+			zs2.power = 9;
+			zs3.power = 6;
+			zs4.power = 3;
+			Wizard w1 = new Wizard (zs1, "Sigbert");
+			Wizard w2 = new Wizard (zs2, "Gileroy");
+			Wizard w3 = new Wizard (zs3, "Dagmar");
+			Wizard w4 = new Wizard (zs4, "Horst");
+			
+			w1.attack(w1);
+		}
+}

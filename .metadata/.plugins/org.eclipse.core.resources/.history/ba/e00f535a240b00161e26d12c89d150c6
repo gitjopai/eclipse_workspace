@@ -1,0 +1,18 @@
+public class Wizard{
+	Wand Zauberstab;
+	String Name;
+	
+	public Wizard (Wand Zauberstab, String Name){
+		this.Zauberstab = Zauberstab;
+		this.Name = Name;
+	}
+	
+	public Wizard attack(Wizard other){
+		System.out.println ("Der Zauberer" + this.getName() + "greift Zauberer" + other.getName());
+		return this;
+	}
+	
+	public String getName() {
+		return this.Name;
+	}
+}

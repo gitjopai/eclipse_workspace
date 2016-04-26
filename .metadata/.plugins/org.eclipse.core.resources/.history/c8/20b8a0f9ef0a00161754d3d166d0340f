@@ -1,0 +1,9 @@
+public class and{
+	int power;
+	boolean useable;
+	
+	public wand (int p){
+		power = p;
+		useable = true;
+	}
+}

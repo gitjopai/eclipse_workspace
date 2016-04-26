@@ -1,0 +1,14 @@
+public class zauberer{
+		public static void main (String[] args){
+			wand z1 = new wand(0, true);
+			wand z2 = new wand(0, true);
+			wand z3 = new wand(0, true);
+			wand z4 = new wand(0, true);
+			z1.power = 3;
+			z2.power = 9;
+			z3.power = 6;
+			z4.power = 3;
+			/*System.out.println (z1.power);
+			System.out.println (z1.useable);*/
+		}
+}

@@ -1,0 +1,8 @@
+public class zauberer{
+		public static void main (String[] args){
+			wand z1 = new wand();
+			wand z2 = new wand();
+			wand z3 = new wand();
+			wand z4 = new wand();
+		}
+}

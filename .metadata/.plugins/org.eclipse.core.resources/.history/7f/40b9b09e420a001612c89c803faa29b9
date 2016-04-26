@@ -1,0 +1,8 @@
+public class Wizard{
+	int Zauberstab;
+	String Name;
+	public Wizard (int zr, String n){
+		Zauberstab = zr;
+		Name = n;
+	}
+}

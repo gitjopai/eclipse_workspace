@@ -1,0 +1,15 @@
+public class zauberer{
+		public static void main (String[] args){
+			wand zs1 = new wand(0, true);
+			wand zs2 = new wand(0, true);
+			wand zs3 = new wand(0, true);
+			wand zs4 = new wand(0, true);
+			zs1.power = 3;
+			zs2.power = 9;
+			zs3.power = 6;
+			zs4.power = 3;
+			/*System.out.println (zs1.power);
+			System.out.println (zs1.useable);*/
+			Wizard w1 = new Wizard (zs1, "Sigbert");
+		}
+}

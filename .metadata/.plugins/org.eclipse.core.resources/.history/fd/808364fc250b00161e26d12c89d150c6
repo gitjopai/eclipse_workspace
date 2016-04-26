@@ -1,0 +1,21 @@
+public class Wizard{
+	Wand Zauberstab;
+	String Name;
+	
+	public Wizard (Wand Zauberstab, String Name){
+		this.Zauberstab = Zauberstab;
+		this.Name = Name;
+	}
+	
+	public Wizard attack(Wizard other){
+		System.out.println ("Der Zauberer\t" + this.getName() + "\t\tgreift Zauberer\t\t" + other.getName() + "\t\tan");
+		if (other.Zauberstab.power == this.Zauberstab.power){
+			System.out.println ("Kein anderer Zauberer ist vorhanden. Zauber wirkungslos");
+		}
+		return this;
+	}
+	
+	public String getName() {
+		return this.Name;
+	}
+}

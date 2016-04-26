@@ -1,0 +1,44 @@
+public class Wizard{
+	Wand Zauberstab;
+	String Name;
+	
+	public Wizard (Wand Zauberstab, String Name){
+		this.Zauberstab = Zauberstab;
+		this.Name = Name;
+	}
+	
+	public Wizard attack(Wizard other){
+		System.out.println ("Der Zauberer\t" + this.getName() + "\tgreift Zauberer\t" + other.getName() + "\tan");
+		if (other.Name == this.Name){
+			this.Zauberstab = null;
+			System.out.println ("Zauberer greift sich selber an und verliert seinen Zauberstab");
+		}
+		else if (other.Zauberstab.power == this.Zauberstab.power){
+			System.out.println ("\tBeide Zauberstäbe sind gleichstark und gehen kaputt");
+			this.Zauberstab.useable = false;
+			other.Zauberstab.useable = false;
+		}
+		else if (other.Name == null){
+			System.out.println ("Kein anderer Zauberer vorhanden. Zauber hat keine Wirkung");
+		}
+		else if (other.Zauberstab == null){
+			System.out.println ("Anderer Zauberer hat keinen Zauberstab. Angriff wirkungslos");
+		}
+		else if (this.Zauberstab == null){
+			System.out.println ("Zauberer hat keinen Zauberstab. Angriff wirkungslos");
+		}
+		else if (this.Zauberstab.power >= other.Zauberstab.power){
+			other.Zauberstab = null;
+			System.out.println("Anderer Zauberer ist schwächer und verliert seinen Zauberstab");
+		}
+		else if (this.Zauberstab.power <= other.Zauberstab.power){
+			this.Zauberstab = null;
+			System.out.println("Zauberer ist schwächer und verliert seinen Zauberstab");
+		}
+		return this;
+	}
+	
+	public String getName() {
+		return this.Name;
+	}
+}
